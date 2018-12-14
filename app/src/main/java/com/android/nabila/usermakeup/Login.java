@@ -34,6 +34,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         this.btnLogin    = this.findViewById(R.id.buttonLogin);
+        this.btnSignup    = this.findViewById(R.id.buttonSigup);
         this.txtUsername = this.findViewById(R.id.txtUsername);
         this.txtPassword = this.findViewById(R.id.txtPassword);
 
@@ -58,6 +59,14 @@ public class Login extends AppCompatActivity {
                             "Isikan username dan password!", Toast.LENGTH_LONG)
                             .show();
                 }
+            }
+        });
+
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               Intent i = new Intent(Login.this,SignUp.class);
+               startActivity(i);
             }
         });
     }
