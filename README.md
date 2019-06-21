@@ -3,9 +3,9 @@
 
 
 ## Deskripsi
-Admin Wardah Brand Makeup
-- Aplikasi berbasis android yang menampilkan list produk,user,rating yang ditujukan untuk admin. 
-- Di Aplikasi ini bisa menambahkan, mengedit, dan menghapus produk,user,rating
+Wardah Brand Makeup
+- Aplikasi berbasis android yang untuk melihat katalog makeup yang ditujukan untuk user. 
+- Di Aplikasi ini bisa login, register, melihat produk berdasarkan kategori
 
 ## Screenshots
 ![Layar Splash](https://github.com/nabilarifdaaa/userMakeup/blob/master/user_ss/1.jpg)
